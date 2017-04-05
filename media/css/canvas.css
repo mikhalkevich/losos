@@ -1,0 +1,92 @@
+#canvas {border: solid 5px grey;
+	background: url(../img/river.png);
+	cursor: none;
+}
+input:valid {
+	background: green;
+}
+
+input:invalid {
+	background: red;
+}
+
+input:required {
+	border: 10px solid pink;
+}
+.top {background: grey;
+       margin: 5px;}
+
+body {margin:0;
+       padding:0;}
+
+.topmenu { display: -moz-box;
+	       display: -webkit-flex;
+	       display: flex;
+           width: 100%;
+           border: solid 1px orange;
+           margin: 0 auto;}
+
+.topmenu a { -moz-box-flex:1;
+	         -webkit-flex:1;
+	         flex: 1;
+             padding: 5px;
+             text-align: center;
+             font-size: 16px;
+             border-right: 1px orange solid;
+             color: white;
+             background: #afddd1;
+             text-decoration: none;}
+
+.logo {float:left;
+padding: 5px;}
+
+.logotex {float: right;
+padding: 3px;
+text-shadow: 1px 1px 1px black;}
+
+.header {background: url("../img/fon.png");
+margin: 0;
+padding: 0;
+height: 200px;}
+
+.left-menu{float: left;
+width: 200px;
+padding: 3px;
+background: orange;}
+
+.left-menu a {display: block;
+padding: 10px;
+background: green;
+color: orange;
+text-decoration: none;
+border-bottom: solid 1px orange;}
+
+.left-menu a:hover {
+	background: orange;
+	color: white;
+}
+
+.bot { 
+ height:160px;
+}
+
+.left{
+	float:left;
+}
+
+.right {
+	float:right;
+	margin-top:200px;
+}
+
+#count {
+	font-size:36px;
+	text-shadow: 1px 1px 1px white;
+	color: gold;
+	background: black;
+	padding: 15px;
+	text-align:center;
+	margin-bottom:10px;
+	margin-top: 10px;
+	border-radius: 6px;
+}
